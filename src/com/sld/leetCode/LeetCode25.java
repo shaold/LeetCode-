@@ -1,5 +1,7 @@
 package com.sld.leetCode;
 
+import com.sld.common.ListNode;
+
 /**
  * 翻转链表，每k个一组进行转
  * todo 待完成
@@ -26,16 +28,6 @@ public class LeetCode25 {
         // 递归反转后续链表并连接起来
         a.next = reverseKGroup(b, k);
         return null;
-    }
-
-
-
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
     // 反转以 a 为头结点的链表

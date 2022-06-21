@@ -1,5 +1,7 @@
 package com.sld.leetCode;
 
+import com.sld.common.ListNode;
+
 /**
  * 反转链表
  * @Author: shaold
@@ -34,11 +36,5 @@ public class LeetCode92 {
         return last;
     }
 
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
+
 }
